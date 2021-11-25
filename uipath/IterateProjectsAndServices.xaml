@@ -1,0 +1,251 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1148,1436" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:AIForged;assembly=AIForged.Activities" xmlns:aa="clr-namespace:AIForged.API;assembly=AIForged.SDK" xmlns:ap="clr-namespace:AIForged.Project;assembly=AIForged.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=mscorlib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.PDF.Activities.PDF</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>AIForged.API</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>LarcAI.Core</x:String>
+      <x:String>Microsoft.Toolkit.Mvvm.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>AIForged</x:String>
+      <x:String>LarcAI.Common</x:String>
+      <x:String>AIForged.Project</x:String>
+      <x:String>LarcAI</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>AIForged.Document</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>AIForged.SDK</AssemblyReference>
+      <AssemblyReference>LarcAI.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.Toolkit.Mvvm</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices.RuntimeInformation</AssemblyReference>
+      <AssemblyReference>AIForged.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>netstandard</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="504,1371" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="password">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String"></Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:Int32" Name="projectId">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="79" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="userName">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String"></Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="aa:UserViewModel" Name="userInfo" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="462,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Welcome to AIForged Demo" />
+    <a:Initialize ProxyPassword="{x:Null}" ProxyServer="{x:Null}" ProxyUsername="{x:Null}" sap:VirtualizedContainerService.HintSize="462,1178" sap2010:WorkflowViewState.IdRef="Initialize_1" URL="https://dev.aiforged.com">
+      <a:Initialize.Body>
+        <ActivityAction x:TypeArguments="aa:Context" DisplayName="ActivityAction`1">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="aa:Context" Name="ctx" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="428,1055" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="scg:List(aa:ProjectViewModel)" Name="projects" />
+              <Variable x:TypeArguments="aa:ProjectViewModel" Name="myProject" />
+              <Variable x:TypeArguments="scg:List(aa:DocumentViewModel)" Name="documents" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ap:GetProjects DisplayName="Get projects" sap:VirtualizedContainerService.HintSize="386,84" sap2010:WorkflowViewState.IdRef="GetProjects_1">
+              <ap:GetProjects.Context>
+                <InArgument x:TypeArguments="aa:Context">
+                  <mca:CSharpValue x:TypeArguments="aa:Context" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">ctx</mca:CSharpValue>
+                </InArgument>
+              </ap:GetProjects.Context>
+              <ap:GetProjects.Result>
+                <OutArgument x:TypeArguments="scg:List(aa:ProjectViewModel)">
+                  <mca:CSharpReference x:TypeArguments="scg:List(aa:ProjectViewModel)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">projects</mca:CSharpReference>
+                </OutArgument>
+              </ap:GetProjects.Result>
+            </ap:GetProjects>
+            <ui:ForEach x:TypeArguments="aa:ProjectViewModel" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="386,839" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="aa:ProjectViewModel">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="aa:ProjectViewModel" Name="p" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="350,705" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="scg:List(aa:ParameterDefViewModel)" Name="services" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="308,61" sap2010:WorkflowViewState.IdRef="WriteLine_3">
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">"Project " + p.Id + " " + p.Name</mca:CSharpValue>
+                      </InArgument>
+                    </WriteLine>
+                    <ap:GetProjectServiceDefs EngineFilter="{x:Null}" DisplayName="Get project service defs" sap:VirtualizedContainerService.HintSize="308,185" sap2010:WorkflowViewState.IdRef="GetProjectServiceDefs_1">
+                      <ap:GetProjectServiceDefs.Context>
+                        <InArgument x:TypeArguments="aa:Context">
+                          <mca:CSharpValue x:TypeArguments="aa:Context" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">ctx</mca:CSharpValue>
+                        </InArgument>
+                      </ap:GetProjectServiceDefs.Context>
+                      <ap:GetProjectServiceDefs.ProjectId>
+                        <InArgument x:TypeArguments="x:Int32">
+                          <mca:CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">p.Id</mca:CSharpValue>
+                        </InArgument>
+                      </ap:GetProjectServiceDefs.ProjectId>
+                      <ap:GetProjectServiceDefs.Result>
+                        <OutArgument x:TypeArguments="scg:List(aa:ParameterDefViewModel)">
+                          <mca:CSharpReference x:TypeArguments="scg:List(aa:ParameterDefViewModel)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">services</mca:CSharpReference>
+                        </OutArgument>
+                      </ap:GetProjectServiceDefs.Result>
+                      <ap:GetProjectServiceDefs.Type>
+                        <InArgument x:TypeArguments="s:Nullable(x:Int32)">
+                          <mca:CSharpValue x:TypeArguments="s:Nullable(x:Int32)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">null</mca:CSharpValue>
+                        </InArgument>
+                      </ap:GetProjectServiceDefs.Type>
+                    </ap:GetProjectServiceDefs>
+                    <ui:ForEach x:TypeArguments="aa:ParameterDefViewModel" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="308,287" sap2010:WorkflowViewState.IdRef="ForEach`1_3">
+                      <ui:ForEach.Body>
+                        <ActivityAction x:TypeArguments="aa:ParameterDefViewModel">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="aa:ParameterDefViewModel" Name="s" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="272,153" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_2">
+                              <InArgument x:TypeArguments="x:String">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">"Service" + s.Id + " " + s.Name</mca:CSharpValue>
+                              </InArgument>
+                            </WriteLine>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEach.Body>
+                      <ui:ForEach.Values>
+                        <InArgument x:TypeArguments="sc:IEnumerable">
+                          <mca:CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">services</mca:CSharpValue>
+                        </InArgument>
+                      </ui:ForEach.Values>
+                    </ui:ForEach>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <ui:ForEach.Values>
+                <InArgument x:TypeArguments="sc:IEnumerable">
+                  <mca:CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">projects</mca:CSharpValue>
+                </InArgument>
+              </ui:ForEach.Values>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </a:Initialize.Body>
+      <a:Initialize.Password>
+        <InArgument x:TypeArguments="x:String">
+          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">password</mca:CSharpValue>
+        </InArgument>
+      </a:Initialize.Password>
+      <a:Initialize.Timeout>
+        <InArgument x:TypeArguments="x:TimeSpan">
+          <mca:CSharpValue x:TypeArguments="x:TimeSpan" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">TimeSpan.FromMinutes(1)</mca:CSharpValue>
+        </InArgument>
+      </a:Initialize.Timeout>
+      <a:Initialize.User>
+        <OutArgument x:TypeArguments="aa:UserViewModel">
+          <mca:CSharpReference x:TypeArguments="aa:UserViewModel" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">userInfo</mca:CSharpReference>
+        </OutArgument>
+      </a:Initialize.User>
+      <a:Initialize.Username>
+        <InArgument x:TypeArguments="x:String">
+          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">userName</mca:CSharpValue>
+        </InArgument>
+      </a:Initialize.Username>
+    </a:Initialize>
+  </Sequence>
+</Activity>
