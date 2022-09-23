@@ -1,23 +1,24 @@
 {
-  "name": "AIForgedSkeleton",
-  "description": "Sample AIForged Project",
+  "name": "AIForged.Sample",
+  "description": "AIForged Demo App",
   "main": "Main.xaml",
   "dependencies": {
-    "AIForged": "[1.3.593.612]",
-    "UiPath.Excel.Activities": "[2.10.4]",
-    "UiPath.Mail.Activities": "[1.10.5]",
-    "UiPath.PDF.Activities": "[3.4.0]",
-    "UiPath.System.Activities": "[21.4.1]",
-    "UiPath.UIAutomation.Activities": "[21.4.4]"
+    "AIForged": "[1.3.996.748]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.5]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.4.4.0",``
+  "studioVersion": "22.4.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -27,7 +28,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -40,19 +41,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "48e007d1-0078-4d32-980d-b72adf8d327b",
-      "input": [],
-      "output": []
-    },
-    {
-      "filePath": "UploadAndProcess.xaml",
-      "uniqueId": "92fa6f91-aa69-41a4-8ab4-fa8547874d88",
+      "uniqueId": "a99f7658-4465-473c-a4c2-c5d729533810",
       "input": [],
       "output": []
     }
