@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RuJx7AMnjsHXb7vCB7dgW1DduObdc7RfHhHRf55JSYvkrl+UoSFrf9qjBSRX45/t3qtojnOU3p+br+oH2/hC3w==",
+  "dgSpecHash": "uTMj1ZHWWUGGv5o7/5FY5eXYXfafKPOpGn6q2AM7m9c3ALicenIpPgEAGt6xnxgiNCGFqq2PFczPjqi3BNFz5A==",
   "success": true,
   "projectFilePath": "C:\\Git\\LarcAI\\AIForged.Github\\rpa\\uipath.studio.2022.csharp\\.local\\",
   "expectedPackageFiles": [
-    "C:\\Users\\StephanusvanStaden\\.nuget\\packages\\aiforged\\1.3.996.748\\aiforged.1.3.996.748.nupkg.sha512",
+    "C:\\Users\\StephanusvanStaden\\.nuget\\packages\\aiforged\\1.3.996.834\\aiforged.1.3.996.834.nupkg.sha512",
     "C:\\Users\\StephanusvanStaden\\.nuget\\packages\\aiforged.sdk\\1.1.993.1314\\aiforged.sdk.1.1.993.1314.nupkg.sha512",
     "C:\\Users\\StephanusvanStaden\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\StephanusvanStaden\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",

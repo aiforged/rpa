@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "AIForged/1.3.996.748": {
+      "AIForged/1.3.996.834": {
         "type": "package",
         "dependencies": {
           "AIForged.SDK": "1.1.993.1314",
@@ -2494,7 +2494,7 @@
       }
     },
     ".NETFramework,Version=v4.6.1/win10-x64": {
-      "AIForged/1.3.996.748": {
+      "AIForged/1.3.996.834": {
         "type": "package",
         "dependencies": {
           "AIForged.SDK": "1.1.993.1314",
@@ -4918,13 +4918,13 @@
     }
   },
   "libraries": {
-    "AIForged/1.3.996.748": {
-      "sha512": "gNOzMpTKOhnehgzc3BdKMqt2/qd3noljPfQ792j2DM81cdUuuFinhSHZSSxShmYJ0gyU0HwubCOGoZ7/I4qxtw==",
+    "AIForged/1.3.996.834": {
+      "sha512": "Br4GTNOlOzZMg2qlRxT9LrJBiXmslsqBPXz5NxXwiAsSYFVUltELm/jFotUm6iYO5Gg/rgcVgPXYrDrA18UI2Q==",
       "type": "package",
-      "path": "aiforged/1.3.996.748",
+      "path": "aiforged/1.3.996.834",
       "files": [
         ".nupkg.metadata",
-        "aiforged.1.3.996.748.nupkg.sha512",
+        "aiforged.1.3.996.834.nupkg.sha512",
         "aiforged.nuspec",
         "lib/net461/AIForged.Activities.dll",
         "lib/net461/AIForged.Design.dll",
@@ -9685,7 +9685,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "AIForged >= 1.3.996.748 <= 1.3.996.748",
+      "AIForged >= 1.3.996.834 <= 1.3.996.834",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.Mail.Activities >= 1.15.2 <= 1.15.2",
       "UiPath.System.Activities >= 22.4.5 <= 22.4.5",
@@ -9713,7 +9713,7 @@
           "AIForged": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.3.996.748, 1.3.996.748]"
+            "version": "[1.3.996.834, 1.3.996.834]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
